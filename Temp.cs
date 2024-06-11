@@ -18,7 +18,7 @@ namespace Company.Function
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
-            return new OkObjectResult("85");
+            return new OkObjectResult("95");
         }
     }
 }
